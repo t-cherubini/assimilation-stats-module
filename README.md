@@ -1,2 +1,3 @@
 # TR-Assimilation
-This repository contains the software (python) used to analyze WRF output data for JGR publication
+This repository contains the software (python) used to analyze WRF output data for a JGR publication.
+The WRF ouput were first interpolated on common grids to either GFS or ECMWF data and on common vertical pressure levels by means of the software UPP (https://dtcenter.org/community-code/unified-post-processor-upp-wrf), then accessed with the python scripts in this repository. The netcdf files are read using the Xarray libraries (https://docs.xarray.dev/en/stable/). Available routines have been manipulated and changed in time and not cleaned or well documented. Please, use at your own risks. Always double check your results.
